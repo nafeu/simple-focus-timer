@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:url"                content="http://apps.phrakture.com/focus" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Simple focus for turds like you." />
+    <meta property="og:description"        content="A tool to help those who are awful at concentrating on work that needs to get done." />
+    <meta property="og:image"              content="http://apps.phrakture.com/focus/img/simplefocus.jpg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="http://apps.phrakture.com/focus/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="http://apps.phrakture.com/focus/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://apps.phrakture.com/focus/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="http://apps.phrakture.com/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Simple focus for turds like you</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <h3 class="text-center" style="font-size: 2.5em; font-family: 'Bungee', Helvetica, sans-serif; margin-top: 0px;">Simple focus for turds like you.</h3>
+    <div style="color: white; font-size: 0.7em; opacity: 0.3;" class="text-center" id="credit">Made with tough love by <a style="color: white;" href="http://facebook.com/phrakture">Nafeu Nasir</a></div>
+    <div id="title" class="animated">JUST FOCUS ON THIS ONE DAMN TASK:</div>
+    <div id="task"></div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <p id="focus-time-title">FOCUS TIME</p>
+        <h1 class="noselect animated" onclick="toggle()" id="counter">00:00:00</h1>
+        <div id="reset-time" onclick="resetTime()">RESET TIMER</div>
+        <div id="reset" onclick="reset()">RESET ALL</div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <p id="interrupt-title" class="animated"># OF INTERRUPTIONS</p>
+        <h1 class="noselect animated" onclick="addInterrupt()" id="interruptions">0</h1>
+        <p id="interrupt-message" id="interruptions"></p>
+      </div>
+    </div>
+    </div>
+    <div style="position: fixed; bottom: 20px; left: 20px;" class="fb-share-button" data-href="http://apps.phrakture.com/focus/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fapps.phrakture.com%2Ffocus%2F&amp;src=sdkpreparse">Share</a></div>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+    <!-- Scripts -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

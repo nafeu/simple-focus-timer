@@ -1,0 +1,120 @@
+body {
+  padding: 10%;
+  padding-top: 7%;
+  background-color: #a63251;
+  color: #f2d9ba;
+}
+
+* {
+  font-family: 'Bungee', Helvetica, sans-serif;
+}
+
+#task {
+  font-size: 8vmin;
+  width: 100%;
+  /*border: 4px solid black;*/
+  background-color: #f2d9ba;
+  color: #a63251;
+  padding: 20px 40px 20px 40px;
+  border-radius: 20px;
+  color: #010540;
+  cursor: pointer;
+}
+
+#task:focus {
+  outline: none;
+  color: #a63251;
+}
+
+#title {
+  font-size: 4vmin;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #f2695c;
+}
+
+#left {
+  width: 50%;
+  float: left;
+}
+
+#right {
+  width: 50%;
+  float: left;
+}
+
+#focus-time-title, #interrupt-title, #counter, #interruptions {
+  text-align: center;
+}
+
+#focus-time-title {
+  font-size: 3vmin;
+  color: #f2695c;
+}
+
+#interrupt-title {
+  font-size: 3vmin;
+  color: #f2695c;
+}
+
+#counter {
+  font-size: 10vmin;
+  cursor: pointer;
+}
+
+#counter:hover {
+  opacity: 0.8;
+}
+
+#interruptions:hover {
+  opacity: 0.8;
+}
+
+#interruptions {
+  font-size: 10vmin;
+  animation-duration: 1000ms;
+  cursor: pointer;
+}
+
+#interrupt-message {
+  text-align: center;
+  font-size: 3vmin;
+  padding-top: 20px;
+}
+
+h1, p {
+  margin: 0;
+}
+
+p {
+  padding: 20px;
+  padding-top: 40px;
+}
+
+#reset, #reset-time {
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+  color: #f2d9ba;
+  text-align: center;
+  font-size: 3vmin;
+  cursor: pointer;
+}
+
+#reset-time {
+  font-size: 1.5vmin;
+}
+
+#reset:active, #reset-time:active {
+  opacity: 0.8;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
