@@ -93,7 +93,10 @@ var interruptMessages = [
   "LITERALLY trash.",
   "no one is going to hold your hand",
   "you can improve your focus by being real with yourself",
-  "just don't be all confused about your productivity later"
+  "just don't be all confused about your productivity later",
+  "You're such a clucker",
+  "I'm not surprised that a cluck like you would lose focus",
+  "Oi! Cluckboi! Get da fuck outta here!"
 ];
 
 function add() {
